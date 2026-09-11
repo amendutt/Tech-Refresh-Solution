@@ -1,0 +1,21 @@
+# Roadmap
+- [x] Upgrade hero with generated image and richer animation
+- [x] Add imagery and hover animation to capability cards
+- [x] Add supplied project screenshots in a portfolio section
+- [x] Add technical doodles and background treatments
+- [x] Verify desktop/mobile, console, overflow, and build
+- [x] Add and categorize the latest 10 portfolio projects
+- [x] Replace the long portfolio list with filter tabs
+- [x] Match the site palette to the logo and improve logo legibility
+- [x] Verify the updated portfolio and branding on desktop/mobile
+- [x] Add and categorize the latest 8 portfolio projects
+- [x] Remove the All portfolio filter and default to a focused category
+- [x] Add more section doodles and richer scroll/hover motion
+- [x] Verify all 28 projects, categories, desktop/mobile layout, and build
+
+- [x] Redesign only the portfolio layout; preserve its current colors.
+- [x] Rename the header Projects link to Portfolio.
+- [x] Match logo background color to header background and redesign portfolio section layout for spacious, high-fidelity screenshot showcase.
+- [x] Integrated all 28 project screenshots into local production assets with live URLs and high-res lightbox modals.
+- [x] Fixed logo visibility across header and footer by downloading and bundling official transparent assets with dark-mode high-contrast tuning.
+- [x] Removed hamburger menu icon from laptop and desktop viewports, restricting it to mobile only (<768px).
