@@ -1,4 +1,4 @@
-import { createFileRoute } from "@tanstack/react-router";
+import { createFileRoute, Link } from "@tanstack/react-router";
 import { motion, useReducedMotion } from "motion/react";
 import { useEffect, useRef, useState } from "react";
 import {
@@ -423,7 +423,7 @@ function Index() {
           </div>
         </section>
       </main>
-      <footer className="bg-foreground py-10 text-background"><div className="site-shell flex flex-col gap-6 text-sm sm:flex-row sm:items-center sm:justify-between"><img src={logoLightImage} alt="Tech Refresh Solution" className="h-16 w-auto object-contain sm:h-20"/><div className="flex gap-2">{socials.map(({ label, href, Icon }) => <a key={label} href={href} target="_blank" rel="noreferrer noopener" aria-label={label} className="social-dot social-dot-footer"><Icon size={17}/></a>)}</div><p className="text-background/55">© 2026 Tech Refresh Solution. All rights reserved.</p></div></footer>
+      <footer className="bg-foreground py-10 text-background"><div className="site-shell flex flex-col gap-6 text-sm sm:flex-row sm:items-center sm:justify-between"><img src={logoLightImage} alt="Tech Refresh Solution" className="h-16 w-auto object-contain sm:h-20"/><div className="flex gap-2">{socials.map(({ label, href, Icon }) => <a key={label} href={href} target="_blank" rel="noreferrer noopener" aria-label={label} className="social-dot social-dot-footer"><Icon size={17}/></a>)}</div><div className="flex items-center gap-4 text-background/55"><Link to="/privacy" className="hover:text-background transition-colors">Privacy Policy</Link><span>•</span><p>© 2026 Tech Refresh Solution. All rights reserved.</p></div></div></footer>
 
       <Dialog open={!!previewProject} onOpenChange={(open) => !open && setPreviewProject(null)}>
         <DialogContent className="max-h-[92vh] max-w-4xl overflow-hidden p-0 border border-border bg-card">
